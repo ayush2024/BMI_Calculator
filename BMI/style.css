@@ -1,0 +1,100 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: darkkhaki;
+}
+
+.box{
+    min-width: 500px;
+    background-color: rgb(239 156 217);;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+h1{
+    padding: 30px 0;
+    font-size: 3rem;
+}
+
+.inputValues{
+    padding: 0 100px;
+}
+
+.input{
+    background-color: rgb(252, 248, 248);
+    border-radius: 20px;
+    color: black;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.input label{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.input input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid red;
+    width: 60%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#calculate{
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: blue;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: 0.7s ease-in-out;
+}
+
+#calculate:hover{
+    background-color: white;
+    color: blue;
+}
+
+.result{
+    padding: 20px;
+    font-size: 1.7rem;
+}
+
+.result p{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.result .value{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: blue;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#comment{
+    color: blue;
+    font-weight: 800;
+}
